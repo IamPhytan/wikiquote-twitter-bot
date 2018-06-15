@@ -28,7 +28,7 @@ def get_quotes(config):
         quotes = get_quotes_from_author(quotes, author)
 
     save_quotes_to_file(quotes)
-    
+
     return quotes
 
 
