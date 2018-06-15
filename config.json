@@ -1,86 +1,27 @@
 {
-  "WIKIQUOTE_LINKS": [
-    {
-      "author": "Albert Einstein",
-      "link": "https://fr.wikiquote.org/wiki/Albert_Einstein"
-    },
-    {
-      "author": "Isaac Newton",
-      "link": "https://fr.wikiquote.org/wiki/Isaac_Newton"
-    },
-    {
-      "author": "Marie Curie",
-      "link": "https://fr.wikiquote.org/wiki/Marie_Curie"
-    },
-    {
-      "author": "René Magritte",
-      "link": "https://fr.wikiquote.org/wiki/Ren%C3%A9_Magritte"
-    },
-    {
-      "author": "Michel de Montaigne",
-      "link": "https://fr.wikiquote.org/wiki/Michel_de_Montaigne"
-    },
-    {
-      "author": "Friedrich Nietzsche",
-      "link": "https://fr.wikiquote.org/wiki/Friedrich_Nietzsche"
-    },
-    {
-      "author": "Emmanuel Kant",
-      "link": "https://fr.wikiquote.org/wiki/Emmanuel_Kant"
-    },
-    {
-      "author": "Platon",
-      "link": "https://fr.wikiquote.org/wiki/Platon"
-    },
-    {
-      "author": "René Descartes",
-      "link": "https://fr.wikiquote.org/wiki/Ren%C3%A9_Descartes"
-    },
-    {
-      "author": "Jean-Jacques Rousseau",
-      "link": "https://fr.wikiquote.org/wiki/Jean-Jacques_Rousseau"
-    },
-    {
-      "author": "Jean-Jacques Rousseau",
-      "link": "https://fr.wikiquote.org/wiki/Discours_sur_l%27origine_et_les_fondements_de_l%27in%C3%A9galit%C3%A9_parmi_les_hommes"
-    },
-    {
-      "author": "Thomas Hobbes",
-      "link": "https://fr.wikiquote.org/wiki/Thomas_Hobbes"
-    },
-    {
-      "author": "Aristote",
-      "link": "https://fr.wikiquote.org/wiki/Aristote"
-    },
-    {
-      "author": "Socrate",
-      "link": "https://fr.wikiquote.org/wiki/Socrate"
-    },
-    {
-      "author": "Baruch Spinoza",
-      "link": "https://fr.wikiquote.org/wiki/Baruch_Spinoza"
-    },
-    {
-      "author": "Pierre Bourdieu",
-      "link": "https://fr.wikiquote.org/wiki/Pierre_Bourdieu"
-    },
-    {
-      "author": "Épicure",
-      "link": "https://fr.wikiquote.org/wiki/%C3%89picure"
-    },
-    {
-      "author": "Michel Foucault",
-      "link": "https://fr.wikiquote.org/wiki/Michel_Foucault"
-    },
-    {
-      "author": "Jean-Paul Sartre",
-      "link": "https://fr.wikiquote.org/wiki/Jean-Paul_Sartre"
-    },
-    {
-      "author": "Blaise Pascal",
-      "link": "https://fr.wikiquote.org/wiki/Blaise_Pascal"
-    }
-  ],
+  "WIKIQUOTE": {
+    "FAMOUS_PEOPLE": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Marie Curie",
+      "René Magritte",
+      "Michel de Montaigne",
+      "Friedrich Nietzsche",
+      "Emmanuel Kant",
+      "Platon",
+      "René Descartes",
+      "Jean-Jacques Rousseau",
+      "Thomas Hobbes",
+      "Aristote",
+      "Socrate",
+      "Baruch Spinoza",
+      "Pierre Bourdieu",
+      "Épicure",
+      "Michel Foucault",
+      "Jean-Paul Sartre",
+      "Blaise Pascal"
+    ]
+  },
   "TWITTER": {
     "CONSUMER_KEY": "<consumer-key>",
     "CONSUMER_SECRET": "<consumer-secret>",
