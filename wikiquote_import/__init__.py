@@ -1,4 +1,5 @@
 import wikiquote
+import os
 
 # Name: Wikiquote Twitter Bot
 # Desc: A simple way to tweet famous quotes from Wikiquote
@@ -26,4 +27,20 @@ def get_quotes(config):
     for author in authors:
         quotes = get_quotes_from_author(quotes, author)
 
+    save_quotes_to_file(quotes)
+    
     return quotes
+
+
+def save_quotes_to_file(quotes):
+    filename = 'saved_quotes.txt'
+
+    if os.path.exists(filename):
+        append_write = 'a'
+    else:
+        append_write = 'w'
+
+    with open(filename, append_write) as f:
+        for quote in quotes:
+            f.write("%s\n" % quote)
+
