@@ -1,5 +1,11 @@
 import tweepy
 
+# Name: Wikiquote Twitter Bot
+# Desc: A simple way to tweet famous quotes from Wikiquote
+# Repo: https://github.com/IamPhytan/wikiquote-twitter-bot
+# Author: IamPhytan
+# License: MIT
+# Path: -/twitter_config
 
 def create_twitter_config(config):
 
