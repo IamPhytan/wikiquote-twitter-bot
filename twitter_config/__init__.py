@@ -1,4 +1,5 @@
 import tweepy
+import random
 
 # Name: Wikiquote Twitter Bot
 # Desc: A simple way to tweet famous quotes from Wikiquote
@@ -21,3 +22,14 @@ def create_twitter_config(config):
 
     return api
 
+
+def choose_quote_n_tweet(quotes, used_tweets_idxs, api):
+    quote_idx = random.randint(0, len(quotes) - 1)
+
+    if quote_idx in used_tweets_idxs:
+        used_tweets_idxs = choose_quote_n_tweet(quotes, used_tweets_idxs, api)
+    else:
+        api.update(status=quotes[quote_idx])
+        used_tweets_idxs.append(quote_idx)
+
+    return used_tweets_idxs
