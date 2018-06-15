@@ -22,18 +22,23 @@ if __name__ == '__main__':
     with open('config.json', 'r') as f:
         config = json.load(f)
 
+    # ========== QUOTES ==========
     quotes = wq_imp.get_quotes(config)
-
     quotes_to_send = [pot_tweet for pot_tweet in quotes if len(pot_tweet) <= 280]
 
-    tw_api = tw_conf.create_twitter_config(config)
+    # ========== TIME CONFIG ==========
+    h = config['TIME']['HOUR']
+    m = config['TIME']['MINUTE']
+    s = config['TIME']['SECOND']
 
+    # ========== TWITTER ==========
+    tw_api = tw_conf.create_twitter_config(config)
     used_tweets_idxs = list()
 
     while len(used_tweets_idxs) < len(quotes_to_send):
         curr_tm = dt.datetime.now().time()
 
-        if (curr_tm.hour, curr_tm.minute, curr_tm.second, curr_tm.microsecond) == (8, 0, 0, 0):
+        if (curr_tm.hour, curr_tm.minute, curr_tm.second, curr_tm.microsecond) == (h, m, s, 0):
             used_tweets_idxs = tw_conf.choose_quote_n_tweet(quotes_to_send, used_tweets_idxs, tw_api)
 
     print("Add more quotes")

@@ -29,5 +29,10 @@
     "CONSUMER_SECRET": "<consumer-secret>",
     "ACCESS_TOKEN": "<access-token>",
     "ACCESS_TOKEN_SECRET": "<access-token-secret>"
+  },
+  "TIME": {
+    "HOUR": 8,
+    "MINUTE": 0,
+    "SECOND": 0
   }
 }
