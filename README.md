@@ -1,5 +1,10 @@
 # Wikiquote Twitter Bot
-A simple way to tweet famous quotes from Wikiquote
+> A simple way to tweet famous quotes from Wikiquote
+
+![GitHub release](https://img.shields.io/github/tag/iamphytan/wikiquote-twitter-bot.svg?label=version&style=flat-square)
+![GitHub Issues](https://img.shields.io/github/issues/iamphytan/wikiquote-twitter-bot.svg?style=flat-square)
+![Downloads](https://img.shields.io/github/downloads/iamphytan/wikiquote-twitter-bot/total.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
 
 ## Motivation
 I wanted to have a bot that would tweet different quotes from Wikiquote each morning to start the day on a good note. 
