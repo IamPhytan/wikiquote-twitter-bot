@@ -1,5 +1,12 @@
 import wikiquote
 
+# Name: Wikiquote Twitter Bot
+# Desc: A simple way to tweet famous quotes from Wikiquote
+# Repo: https://github.com/IamPhytan/wikiquote-twitter-bot
+# Author: IamPhytan
+# License: MIT
+# Path: -/wikiquote_import
+
 def get_quotes_from_author(quotes, author):
 
     author_quotes = wikiquote.quotes(author)
