@@ -1,13 +1,24 @@
 import wikiquote
 
-def get_quotes_from_author(author):
+def get_quotes_from_author(quotes, author):
 
-    quotes = wikiquote.quotes(author)
+    author_quotes = wikiquote.quotes(author)
+    tweets = ["{0} - {1}".format(quote, author) for quote in author_quotes]
 
-    tweets = ["{0} - {1}".format(quote, author) for quote in quotes]
+    for tweet in tweets:
+        quotes.append(tweet)
 
-    return tweets
+    return quotes
 
 
+def get_quotes(config):
+
+    quotes = list()
+    authors = config['WIKIQUOTE']['FAMOUS_PEOPLE']
+
+    for author in authors:
+        quotes = get_quotes_from_author(quotes, author)
+
+    return quotes
 
 
