@@ -8,8 +8,8 @@ import random
 # License: MIT
 # Path: -/twitter_config
 
-def create_twitter_config(config):
 
+def create_twitter_config(config):
     consumer_key = config['TWITTER']["CONSUMER_KEY"]
     consumer_secret = config['TWITTER']["CONSUMER_SECRET"]
     access_token = config['TWITTER']["ACCESS_TOKEN"]
