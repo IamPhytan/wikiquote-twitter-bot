@@ -35,6 +35,7 @@ if __name__ == '__main__':
     tw_api = tw_conf.create_twitter_config(config)
     used_tweets_idxs = list()
 
+    # TODO Change logic to use crontab instead
     while len(used_tweets_idxs) < len(quotes_to_send):
         curr_tm = dt.datetime.now().time()
 
